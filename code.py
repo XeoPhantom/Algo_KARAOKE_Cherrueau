@@ -33,15 +33,16 @@ ch4 = Karaoke("everybody is kungfu fighting", 50)
 #test pour voir si tout vas bien 
 
 print("bienvenue dans la partie de Karaoke de nombreux joueurs propose leur performance aujourd'hui")
-input("voulez vous participer?" 1/"non" 2/ "oui")
-def reponse() :
+participation = input("voulez vous participer?:" 1/"non" 2/ "oui")
 
     if 1 print("très bien passer une bonne journée") :
 
     else 2 print("parfait vous serez le joueur 01") :
-        input("choissisez une chanson :" + ch1.chanson1 + ch2.chanson1)
-            if ch1.chanson1, + 30 point :
-            print(ch1.point)
-            else ch2.chanson1, +40 point :
-            print(ch2.point)
+        choix chanson = input("choissisez une chanson :" 1/"chanson.py" 2/"hello word" )
+            
+            if 1 ch1 =  Karaoke("chanson.py", 70) 
+                print(ch1.point)
 
+            else 2
+                print(ch2.point)
+            
