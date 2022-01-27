@@ -38,10 +38,13 @@ participation = input("voulez vous participer?:" 1/"non" 2/ "oui")
     if 1 print("très bien passer une bonne journée") :
 
     else 2 print("parfait vous serez le joueur 01") :
-        choix chanson = input("choissisez une chanson :" 1/"chanson.py" 2/"hello word" )
+        choixchanson = input("choissisez une chanson :" 1/"chanson.py" 2/"hello word" )
             
             if 1 ch1 =  Karaoke("chanson.py", 70) 
                 print(ch1.point)
+                p1 = Player("Joueur 01", "chanson.py", 70)
+                print(p1.chansontest)
+                print(p1.speudo)
 
             else 2
                 print(ch2.point)
