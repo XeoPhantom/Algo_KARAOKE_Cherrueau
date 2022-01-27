@@ -39,8 +39,9 @@ def reponse() :
     if 1 print("très bien passer une bonne journée") :
 
     else 2 print("parfait vous serez le joueur 01") :
-        input("choissisez une chanson :" + ch1.chanson1 + ch2.chanson1 + ch3.chanson1 + ch4.chanson1 )
+        input("choissisez une chanson :" + ch1.chanson1 + ch2.chanson1)
             if ch1.chanson1, + 30 point :
             print(ch1.point)
             else ch2.chanson1, +40 point :
             print(ch2.point)
+
